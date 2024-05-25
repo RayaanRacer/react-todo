@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.create-todo{
+    background-image: linear-gradient(to right, purple, blue);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.create-todo-mobile{
+    width: 375px;
+    background-color: rgb(17, 17, 17);
+    height: 100vh;
+    color: white;
+}
+.create-todo-mobile-1{
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+    padding-left: 20px;
+    font-size: 2em;
+    color: whitesmoke;
+}
+.create-todo-mobile-2{
+    width: 100%;
+    height: 80%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.create-todo-mobile-2 .create-todo-mobile-2-1{
+    font-size: 1.3em;
+    letter-spacing: 1.4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5px;
+    color: purple;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    float: left;
+    padding-left: 20px;
+}
+.create-todo-mobile-2-2 form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.create-todo-mobile-2-2 div{
+    width: 100%;
+}
+.create-todo-mobile-2-2 label{
+    font-size: 1.2em;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: rgb(182, 182, 182);
+}
+.create-todo-mobile-2-2 input{
+    width: 80%;
+    background-color: rgb(42, 45, 61);
+    height: 25px;
+    color: white;
+    padding:5px;
+    border: none;
+    letter-spacing: 1.3px;
+}
+.create-todo-mobile-2-2 #description{
+    height: 150px;
+    background-color: rgb(42, 45, 61);
+    color: white;
+    padding:5px;
+    border: none;
+    letter-spacing: 1.3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    float: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 80%;
+}
+#description::placeholder{
+    vertical-align: top;
+}
+.create-todo-mobile-2-2 button{
+    width: 80%;
+    margin-top: 10px;
+}
+.create-todo-mobile-3{
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.create-todo-mobile-3 i{
+    font-size: 1.5em;
+}
+.create-todo-mobile-3-1{
+    background-color: blueviolet;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.create-todo-mobile-3-1:hover{
+    background-color: rgb(44, 239, 14);
+}
+.create-todo-mobile-2-2{
+    width: 100%;
+}
+.create-todo-mobile-2-2 ul{
+    margin-top: 20px;
+    width: 100%;
+    overflow-y: scroll;
+    height: 400px;
+}
+.create-todo-mobile-2-2 ul li{
+    list-style: none;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.list-title{
+    height:50px;
+    width: 100%;
+}
+.list-left-description{
+    width: 100%;
+}
+.list-left-description-1{
+    width: 100%;
+    height: 5px;
+    float: right;
+    text-align: end;
+}
+.list-left-description-2{
+    cursor: text;
+}
+.create-todo-mobile-2-2 .list-left{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.create-todo-mobile-2-2 .list-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    float: left;
+    width: 30%;
+}
+.list-right-extreme{
+    height: 50px;
+    width: 5px;
+    background-color: aqua;
+    float: left;
+}
+.create-todo-mobile-2-2 .list-right-button{
+    background-color: aqua;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: 30px;
+    font-weight: bold;
+}
+
+
+.list-left-top{
+    font-size: 1.3em;
+}
+.list-left-bottom{
+    font-size: 0.8em;
+    color: rgb(82, 82, 82);
+    font-weight: 500;
+}
+.list-left-description{
+    width: 100%;
+    float: left;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    background-color: antiquewhite;
+    color: black;
+    font-weight: 500;
+}
